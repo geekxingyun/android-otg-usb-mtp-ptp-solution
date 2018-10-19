@@ -9,6 +9,10 @@
 
 3. MTP协议的一个替代解决方案，可读取MTP设备中的图片并保存到手机自带的存储卡中
 
+代码文字讲解：https://blog.csdn.net/hadues/article/details/83153615
+
+代码视频讲解：https://github.com/geekxingyun/AndroidOtgUSBMtpSample/tree/master/VideoIntroduceForCodeSample
+
 # 使用方法
 
 ## 添加项目依赖
