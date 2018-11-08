@@ -1,13 +1,26 @@
 # AndroidOtgUSBMtpSample
-一个实现读取USB设备所有图片并复制到到手机内部存储中的Android解决方案
 
-这个解决方案可以解决这样几个场景下的问题:
+最近在做一个手机连接单反相机，最终目的是实现相册直播功能。
 
-1. 读取单反相机上的所有图片并保存到手机自带的存储中
+经过一番尝试，发现 Android 应用获取外部设备文件一共有这样四种方式
 
-2. 读取USB 设备上的所有图片并保存到手机自带的存储卡中
+USB 传输协议
+MTP传输协议 （Media Transfer Protocol）
+PTP 传输协议 （Picture Transfer Protocol）Digital Camera 数码相机
+内容提供器 （Content-Provider）
 
-3. MTP协议的一个替代解决方案，可读取MTP设备中的图片并保存到手机自带的存储卡中
+参考：https://www.howtogeek.com/192732/android-usb-connections-explained-mtp-ptp-and-usb-mass-storage/
+
+经测试发现，手机连接数码相机想边拍边传只能使用PTP传输协议，其他两种都不行。
+
+------------------------------------------------------------------
+待更新。。。
+
+USB设备文件读取并复制到手机存储上 
+
+代码文字讲解：https://blog.csdn.net/hadues/article/details/83153615
+
+代码视频讲解：https://github.com/geekxingyun/AndroidOtgUSBMtpSample/tree/master/VideoIntroduceForCodeSample
 
 # 使用方法
 
