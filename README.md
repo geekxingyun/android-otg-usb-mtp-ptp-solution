@@ -16,7 +16,7 @@
 
 经测试发现，手机连接数码相机想边拍边传只能使用PTP传输协议，其他两种都不行。
 
-PTP协议相关类库（待测试通过）
+PTP协议相关类库（待测试）
 
 https://github.com/michaelzoech/remoteyourcam-usb
 
