@@ -17,7 +17,7 @@ https://github.com/ynyao/cameraphoto
 
 https://www.jianshu.com/p/55eae30d133c
 
-https://github.com/michaelzoech/remoteyourcam-usb
+PTP 实现相关类库:  https://github.com/michaelzoech/remoteyourcam-usb
 
 ```
 
@@ -32,10 +32,6 @@ https://github.com/michaelzoech/remoteyourcam-usb
 4. PTP 传输协议 （Picture Transfer Protocol）Digital Camera 数码相机
 
 据说，手机连接数码相机想边拍边传只能使用PTP传输协议，其他两种都不行。
-
-PTP协议相关类库（待测试）
-
-https://github.com/michaelzoech/remoteyourcam-usb
 
 ------------------------------------------------------------------
 
