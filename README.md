@@ -13,14 +13,21 @@ PTP 传输协议 （Picture Transfer Protocol）Digital Camera 数码相机
 
 经测试发现，手机连接数码相机想边拍边传只能使用PTP传输协议，其他两种都不行。
 
-------------------------------------------------------------------
-待更新。。。
+PTP协议相关类库（待测试通过）
 
-USB设备文件读取并复制到手机存储上 
+https://github.com/michaelzoech/remoteyourcam-usb
+
+------------------------------------------------------------------
+
+MTP模式访问单反相机照片并复制到手机存储上（测试通过）
+
+https://github.com/geekxingyun/AndroidOtgUSBMtpSample/tree/master/ReadCameraPhotoByMTP
+
+读取单反大卡USB设备文件并复制到手机存储上 （测试通过）
 
 代码文字讲解：https://blog.csdn.net/hadues/article/details/83153615
 
-代码视频讲解：https://github.com/geekxingyun/AndroidOtgUSBMtpSample/tree/master/VideoIntroduceForCodeSample
+代码视频讲解：https://github.com/geekxingyun/AndroidOtgUSBMtpSample/tree/master/ReadCameraPhotoByUSB
 
 # 使用方法
 
