@@ -4,13 +4,13 @@
 
 经过一番尝试，发现 Android 应用获取外部设备文件一共有这样四种方式
 
-内容提供器 （Content-Provider）
+1. 内容提供器 （Content-Provider）
 
-USB 传输协议 
+2. USB 传输协议 
 
-MTP传输协议 （Media Transfer Protocol）
+3. MTP传输协议 （Media Transfer Protocol）
 
-PTP 传输协议 （Picture Transfer Protocol）Digital Camera 数码相机
+4. PTP 传输协议 （Picture Transfer Protocol）Digital Camera 数码相机
 
 参考：https://www.howtogeek.com/192732/android-usb-connections-explained-mtp-ptp-and-usb-mass-storage/
 
