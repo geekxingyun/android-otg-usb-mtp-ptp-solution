@@ -1,6 +1,25 @@
 # AndroidOtgUSBMtpSample
 
-最近在做一个手机连接单反相机，最终目的是实现相册直播功能。
+最近在做一个手机连接单反相机，最终目的是实现相册直播边拍边传功能。
+
+参考资料：
+```
+
+https://www.howtogeek.com/192732/android-usb-connections-explained-mtp-ptp-and-usb-mass-storage/
+
+https://github.com/magnusja/libaums
+
+https://blog.csdn.net/csdn635406113/article/details/70146041
+
+https://developer.android.google.cn/guide/topics/providers/document-provider#create
+
+https://github.com/ynyao/cameraphoto
+
+https://www.jianshu.com/p/55eae30d133c
+
+https://github.com/michaelzoech/remoteyourcam-usb
+
+```
 
 经过一番尝试，发现 Android 应用获取外部设备文件一共有这样四种方式
 
@@ -12,9 +31,7 @@
 
 4. PTP 传输协议 （Picture Transfer Protocol）Digital Camera 数码相机
 
-参考：https://www.howtogeek.com/192732/android-usb-connections-explained-mtp-ptp-and-usb-mass-storage/
-
-经测试发现，手机连接数码相机想边拍边传只能使用PTP传输协议，其他两种都不行。
+据说，手机连接数码相机想边拍边传只能使用PTP传输协议，其他两种都不行。
 
 PTP协议相关类库（待测试）
 
