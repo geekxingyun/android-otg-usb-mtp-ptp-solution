@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/check_USB_Access_Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="请求读写权限"/>
+
+            <Button
+                android:id="@+id/scan_MTP_Pic_Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MTP模式扫描单反设备图片"/>
+
+            <Button
+                android:id="@+id/scan_USB_Pic_Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="打开系统内容提供器扫描图片"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/find_USB_Pic_Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="打开自定义内容提供器扫描图片"/>
+
+            <TextView
+                android:id="@+id/showURI_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/checkedPicFile_ImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
