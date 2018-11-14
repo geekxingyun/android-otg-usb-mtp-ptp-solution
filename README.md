@@ -17,7 +17,7 @@ https://github.com/ynyao/cameraphoto
 
 https://www.jianshu.com/p/55eae30d133c
 
-PTP 实现相关类库:  https://github.com/michaelzoech/remoteyourcam-usb
+https://github.com/michaelzoech/remoteyourcam-usb
 
 https://github.com/terencehonles/Android_USB_PTP_Lib
 
