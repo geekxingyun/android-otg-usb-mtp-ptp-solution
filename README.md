@@ -19,17 +19,23 @@ https://www.jianshu.com/p/55eae30d133c
 
 PTP 实现相关类库:  https://github.com/michaelzoech/remoteyourcam-usb
 
+https://github.com/terencehonles/Android_USB_PTP_Lib
+
+https://github.com/Fimagena/libptp
+
+https://sourceforge.net/projects/jphoto/
+
 ```
 
 经过一番尝试，发现 Android 应用获取外部设备文件一共有这样四种方式
 
-1. 内容提供器 （Content-Provider）
+1. 内容提供器 （Content-Provider） ---已测试,独占模式, 而且需要手动点击导入到手机系统相册中才能使用
 
-2. USB 传输协议 
+2. USB 传输协议 ----------------已测试,不支持单反相机，仅支持单反相机取出来内存卡数据读取
 
-3. MTP传输协议 （Media Transfer Protocol）
+3. MTP传输协议 （Media Transfer Protocol）-----已测试,独占模式,可导出真实图片和缩略图
 
-4. PTP 传输协议 （Picture Transfer Protocol）Digital Camera 数码相机
+4. PTP 传输协议 （Picture Transfer Protocol）Digital Camera 数码相机----待测试
 
 据说，手机连接数码相机想边拍边传只能使用PTP传输协议，其他两种都不行。
 
