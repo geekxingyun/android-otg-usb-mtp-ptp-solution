@@ -2,31 +2,6 @@
 
 最近在做一个手机连接单反相机，最终目的是实现相册直播边拍边传功能。
 
-参考资料：
-```
-
-https://www.howtogeek.com/192732/android-usb-connections-explained-mtp-ptp-and-usb-mass-storage/
-
-https://github.com/magnusja/libaums
-
-https://blog.csdn.net/csdn635406113/article/details/70146041
-
-https://developer.android.google.cn/guide/topics/providers/document-provider#create
-
-https://github.com/ynyao/cameraphoto
-
-https://www.jianshu.com/p/55eae30d133c
-
-https://github.com/michaelzoech/remoteyourcam-usb
-
-https://github.com/terencehonles/Android_USB_PTP_Lib
-
-https://github.com/Fimagena/libptp
-
-https://sourceforge.net/projects/jphoto/
-
-```
-
 经过一番尝试，发现 Android 应用获取外部设备文件一共有这样四种方式
 
 1. 内容提供器 （Content-Provider） ---已测试,独占模式, 而且需要手动点击导入到手机系统相册中才能使用
@@ -68,3 +43,27 @@ https://github.com/geekxingyun/AndroidOtgUSBMtpSample/tree/master/ReadCameraPhot
   
  ## 复制项目中的相关代码即可
     
+# 参考资料：
+```
+
+https://www.howtogeek.com/192732/android-usb-connections-explained-mtp-ptp-and-usb-mass-storage/
+
+https://github.com/magnusja/libaums
+
+https://blog.csdn.net/csdn635406113/article/details/70146041
+
+https://developer.android.google.cn/guide/topics/providers/document-provider#create
+
+https://github.com/ynyao/cameraphoto
+
+https://www.jianshu.com/p/55eae30d133c
+
+https://github.com/michaelzoech/remoteyourcam-usb
+
+https://github.com/terencehonles/Android_USB_PTP_Lib
+
+https://github.com/Fimagena/libptp
+
+https://sourceforge.net/projects/jphoto/
+
+```
