@@ -14,7 +14,11 @@
 
 据说，手机连接数码相机想边拍边传只能使用PTP传输协议，其他两种都不行。
 
-今天有了新的发现，据说 EOS Utility 可以在电脑上远程拍摄照片
+今天有了新的发现
+
+> EOS Utility 是一款用于与您的 EOS DIGITAL 相机进行通信的软件。 通过将相机与电脑连接,您可将 相机内存卡中所存储的图像下载至电脑,还可进行各种相机设置或通过电脑上的 EOS Utility 进行远程拍摄
+ 
+据说 EOS Utility 可以在电脑上远程拍摄照片
 
 EOS Utility PC版下载地址： http://support-cn.canon-asia.com/contents/CN/ZH/0200570705.html
 
