@@ -66,12 +66,12 @@ https://github.com/ynyao/cameraphoto
 
 https://www.jianshu.com/p/55eae30d133c
 
-https://github.com/michaelzoech/remoteyourcam-usb
-
-https://github.com/terencehonles/Android_USB_PTP_Lib
-
 https://github.com/Fimagena/libptp
 
 https://sourceforge.net/projects/jphoto/
+
+https://github.com/terencehonles/Android_USB_PTP_Lib
+
+https://github.com/michaelzoech/remoteyourcam-usb
 
 ```
