@@ -10,7 +10,7 @@
 
 3. MTP传输协议 （Media Transfer Protocol）-----已测试,独占模式,可导出真实图片和缩略图
 
-4. PTP 传输协议 （Picture Transfer Protocol）Digital Camera 数码相机----待测试
+4. PTP 传输协议 （Picture Transfer Protocol）Digital Camera 数码相机----有同行测试成功
 
 据说，手机连接数码相机想边拍边传只能使用PTP传输协议，其他两种都不行。
 
@@ -30,9 +30,15 @@ https://github.com/terencehonles/Android_USB_PTP_Lib
 
 https://github.com/michaelzoech/remoteyourcam-
 
-PS: 一个同行测试成功了，但是我测试报一个空指针异常，不知道什么原因~ 
+PS: 
 
-如果是企业想使用，请移步：https://y.camera360.com/
+1. 一个同行测试成功了，但是我测试报一个空指针异常，不知道什么原因~ 
+
+2. 虽然据说的这事使用的PTP协议，但我觉得更像是把PC端软件的驱动指令以Java NDK/JNI 方式封装，然后移动端调用。
+
+3. 当然关于相机操作指令还有一种叫做Jphoto 的Java 类库，但是我没看懂怎么使用，有兴趣的朋友可以研究下。
+
+如果企业想使用稳定成熟产品，请移步：https://y.camera360.com/
 
 ------------------------------------------------------------------
 
