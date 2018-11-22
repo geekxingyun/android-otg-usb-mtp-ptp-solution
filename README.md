@@ -14,13 +14,25 @@
 
 据说，手机连接数码相机想边拍边传只能使用PTP传输协议，其他两种都不行。
 
-今天有了新的发现
+于是我去了单反官网，找官方客服寻找资料，客户提供了一个线索 EOS Utility PC端软件可以，移动端暂时没有配套软件。
 
 > EOS Utility 是一款用于与您的 EOS DIGITAL 相机进行通信的软件。 通过将相机与电脑连接,您可将 相机内存卡中所存储的图像下载至电脑,还可进行各种相机设置或通过电脑上的 EOS Utility 进行远程拍摄
  
-据说 EOS Utility 可以在电脑上远程拍摄照片
+据客服所说 EOS Utility 可以通过Wifi 连接模式或者WLAN USB 桥接模式实现单反相机控制，当然边拍边传也可以实现
 
 EOS Utility PC版下载地址： http://support-cn.canon-asia.com/contents/CN/ZH/0200570705.html
+
+经过测试，将USB数据线将数码相机和单反相机连接后，确实可以实现实现边拍边传效果，但是我们需要的是移动端哈
+
+直到今天，终于有了最终解决方案，参考以下类库可实现相册直播边拍边传效果~
+
+https://github.com/terencehonles/Android_USB_PTP_Lib
+
+https://github.com/michaelzoech/remoteyourcam-
+
+PS: 一个同行测试成功了，但是我测试报一个空指针异常，不知道什么原因~ 
+
+如果是企业想使用，请移步：https://y.camera360.com/
 
 ------------------------------------------------------------------
 
