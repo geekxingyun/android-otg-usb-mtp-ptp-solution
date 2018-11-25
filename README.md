@@ -30,7 +30,7 @@ EOS Utility PC版下载地址： http://support-cn.canon-asia.com/contents/CN/ZH
 
 https://github.com/terencehonles/Android_USB_PTP_Lib
 
-https://github.com/michaelzoech/remoteyourcam-
+https://github.com/michaelzoech/remoteyourcam-usb
 
 PS: 
 
