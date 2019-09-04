@@ -45,6 +45,8 @@ PS:
 
 ------------------------------------------------------------------
 
+## 测试报告如下
+
 MTP模式访问单反相机照片并复制到手机存储上（测试通过）
 
 https://github.com/geekxingyun/AndroidOtgUSBMtpSample/tree/master/ReadCameraPhotoByMTP
