@@ -112,15 +112,11 @@ https://github.com/michaelzoech/remoteyourcam-usb
 
 [星云微博](https://weibo.com/xingyunsky)
 
-# 关注与打赏
+# 关注与赞赏
 
-<div align="center">
- <a href="https://github.com/geekxingyun/SpringBootBestPracticesSample/blob/master/resources/images/follow-me-and-award-me.png">
- <img src="https://github.com/geekxingyun/SpringBootBestPracticesSample/blob/master/resources/images/follow-me-and-award-me.png">
- </img>
-  </a>
-</div>
+<div align="center"><img src="https://github.com/geekxingyun/SpringBootBestPracticesSample/blob/master/assets/images/follow-me-and-award-me.png?raw=true"/></div>
 
 # 联系我
 
 Email: fairy_xingyun@hotmail.com
+
