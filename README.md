@@ -112,9 +112,6 @@ https://github.com/michaelzoech/remoteyourcam-usb
 
 [星云微博](https://weibo.com/xingyunsky)
 
-# 关注与赞赏
-
-<div align="center"><img src="https://github.com/geekxingyun/SpringBootBestPracticesSample/blob/master/assets/images/follow-me-and-award-me.png?raw=true"/></div>
 
 # 联系我
 
